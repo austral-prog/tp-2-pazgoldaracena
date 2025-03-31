@@ -3,16 +3,18 @@ def change():
     money = 100
     print("Ingresar gasto:")
     print(expense)
+
     print("Dinero recibido")
     print(money)
-    
-    print("Vuelto")
-    
+
+    print("\nVuelto\n")
+
     print("Pesos:")
     vuelto = money - expense
     pesos = int(vuelto)
     print(pesos)
+
     print("Centavos:")
     decimal = vuelto - pesos
-    decimal_entero = int(decimal * 100)
-    print(decimal_entero)
+    centavos = int(decimal * 100)
+    print(centavos)
